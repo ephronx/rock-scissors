@@ -1,7 +1,0 @@
-{
-    "dotnet.defaultSolution": "rock-scissors.sln",
-    "azureFunctions.deploySubpath": "rs-doc-event-handler/bin/Release/net8.0/publish",
-    "azureFunctions.projectLanguage": "C#",
-    "azureFunctions.projectRuntime": "~4",
-    "azureFunctions.preDeployTask": "publish (functions)"
-}
