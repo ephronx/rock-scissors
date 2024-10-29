@@ -1,1 +1,17 @@
-<DocumentRequest><Header><RequestType>GBIValuation</RequestType><LetterDate>2024-07-30T15:24:27.517</LetterDate><doc_date>2024-07-30</doc_date><OutputFileName /><Keys><investor_name type="string">Charlotte Collier</investor_name><int_party /><value_date>2023-09-26</value_date><rep_ccy>USD</rep_ccy></Keys></Header><Data></Data></DocumentRequest>
+<DocumentRequest>
+  <Header>
+    <RequestType>GBIValuation</RequestType>
+    <LetterDate>2024-07-30T15:24:27.517</LetterDate>
+    <doc_date>2024-07-30</doc_date>
+    <OutputFileName />
+    <Keys>
+      <investor_name type="string">Charlotte Collier</investor_name>
+      <int_party />
+      <value_date>2023-09-26</value_date>
+      <rep_ccy>USD</rep_ccy>
+    </Keys>
+  </Header>
+  <Data>
+    
+  </Data>
+</DocumentRequest>
