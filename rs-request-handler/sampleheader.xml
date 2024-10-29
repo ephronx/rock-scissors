@@ -1,0 +1,7 @@
+﻿<DocumentRequest>
+  <Header>
+    <RequestType>TemplateCode</RequestType>
+    <LetterDate>2023-09-30</LetterDate>
+    <OutputFileName />
+  </Header>
+</DocumentRequest>

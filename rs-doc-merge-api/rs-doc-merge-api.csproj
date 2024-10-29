@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>sf_doc_merge_api_v2</RootNamespace>
+    <StartupObject>sf_doc_merge_api_v2.Program</StartupObject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Aspose.Words" Version="24.10.0" />
+    <PackageReference Include="DocentricToolkitEngine" Version="6.1.54" />
+    <PackageReference Include="Microsoft.ApplicationInsights" Version="2.22.0" />
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="5.2.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+    <Content Include="Aspose.Words.Net.lic" CopyToOutputDirectory="Always" />
+    <Content Include="Docentric.lic" CopyToOutputDirectory="Always" />
+    </ItemGroup>
+  
+</Project>

@@ -1,0 +1,15 @@
+{
+  "profiles": {
+    "sf_digital_docgen_event_handler": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7036"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker",
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
+      "DockerfileRunArguments": "--init",
+      "httpPort": 33221,
+      "useSSL": false
+    }
+  }
+}
