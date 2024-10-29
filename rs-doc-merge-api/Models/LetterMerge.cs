@@ -183,16 +183,7 @@ namespace rs_doc_merge_api.Models {
                     _sourceXml = XElement.Load(reader);
                 }
             } catch (Exception err) {
-                string source;
-                string log;
-
-                source = "SFDocMergeApi";
-                log = "Application";
-
-                if (!EventLog.SourceExists(source))
-                    EventLog.CreateEventSource(source, log);
-
-                EventLog.WriteEntry(source, err.InnerException.ToString(), EventLogEntryType.Error);
+                throw new Exception(err.Message);
             }
 
             CreateDirectory(_outputfilename);
@@ -219,17 +210,7 @@ namespace rs_doc_merge_api.Models {
                     }
                 }
             } catch (Exception err) {
-                string source;
-                string log;
-
-                source = "SFDocMergeApi";
-                log = "Application";
-
-                if (!EventLog.SourceExists(source))
-                    EventLog.CreateEventSource(source, log);
-
-                EventLog.WriteEntry(source, err.Message.ToString(), EventLogEntryType.Error);
-
+                throw new Exception(err.Message);
             }
 
             byte[] pdfdoc = ConvertWordToPDF(_outputfilename);
