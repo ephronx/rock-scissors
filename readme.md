@@ -7,3 +7,4 @@ Included in this solution are:
 - the **request handler** which is a .net core 6 API to add and query a request as well as add a batch to wrap a set of requests as a group of requests
 - an **event handler** - in this case just a simple Azure timer function but you could use any scheduler to execute the merge
 - the **merge api** - when exectuted the Merge api checks the queue for an unprocessed request and processes it
+
