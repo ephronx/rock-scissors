@@ -1,3 +1,7 @@
+/*
+    (c) Shane Wilson Apache 2.0 license (https://github.com/ephronx/rock-scissors/blob/main/LICENSE)
+*/
+
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Mvc;
 using rs_request_handler.Models;

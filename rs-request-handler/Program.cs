@@ -1,3 +1,6 @@
+/*
+    (c) Shane Wilson Apache 2.0 license (https://github.com/ephronx/rock-scissors/blob/main/LICENSE)
+*/
 using System;
 using System.Collections.Generic;
 using System.IO;
