@@ -35,8 +35,7 @@ This project is licensed under the Apache v2 License. There are closed source co
 ## Supporting this project
 While I don't expect donations for this project, if it helps and you wish to donate something, either become a collaborator or you can donate below:
 
-[(<script src="https://liberapay.com/shane.aboyne/widgets/button.js"></script>)]
-[(<noscript><a href="https://liberapay.com/shane.aboyne/donate"><img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a></noscript>(]
+<noscript><a href="https://liberapay.com/shane.aboyne/donate"><img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a></noscript>
 
 ## Architecture
 Programming Language: C# .net core 6
