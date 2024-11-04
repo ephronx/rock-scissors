@@ -57,6 +57,9 @@ The "engine" consists of 3 components, the request handler, the event handler (a
 - test request handler endpoint - if you can successfully send a xml request and it is stored in the requestqueue table, you have succeeded in creating your first request
 
 ## Sample XML header
+Authentication is with ApiKey - you will need to add a new ApiKey to your db on the group table
+Send request below to https://<yourhostname>/api/v1/AddRequest with the Xml in the body of the request. The response is Json and your request is successful if you get a value Id. Any error will result in an Empty Guid value in the Id.
+
 ```
 <DocumentRequest>
   <Header>
