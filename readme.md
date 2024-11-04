@@ -44,3 +44,27 @@ Additional Assemblies:
 - Aspose.Words for .net 
 - Microsoft.Data.SqlClient - for Azure SQL db and local SQL server
 Development Pattern: MVC
+
+## Deployment architecture (sample)
+The "engine" consists of 3 components, the request handler, the event handler (a sime timer) and the merge api (described above). I deployed these in Azure. 
+
+- create a resource group
+- deploy request handler as a linux app service, event handler as an azure function and merge api as an app service
+- add app gateway with "public" access to the request handler endpoint only
+- spin up an Azure SQL db (you can use a private link between request handler, merge api and your Azure db if you want to "hide" sql from public access)
+- add blob / file share storage account and assign read / write access for Managed ID of merge api to file share / blob share to allow writing PDF / Docx files to that location
+- configure appsettings with sql connection and outputlocation for db access etc.
+- test request handler endpoint - if you can successfully send a xml request and it is stored in the requestqueue table, you have succeeded in creating your first request
+
+## Sample XML header
+<DocumentRequest>
+  <Header>
+    <RequestType>TemplateCode</RequestType>
+    <LetterDate>2023-09-30</LetterDate>
+    <Version>1</Version>
+    <OutputFileName />
+  </Header>
+  <Data>
+    <ThisIsWhereYourDataPayloadGoes />
+  </Data>
+</DocumentRequest>
