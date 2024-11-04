@@ -33,12 +33,12 @@ I will never take Rock-Scissors commercial. Long time collaborators have tried t
 This project is licensed under the Apache v2 License. There are closed source components in use in this project: Aspose.Words and Docentric Toolkit.
 
 ## Supporting this project
-While I don't expect donations for this project, if it helps and you wish to donate something, either become a collaborator or you can donate below:
+While I don't expect donations for this project, if it helps and you wish to donate something, either become a _collaborator_ or you can donate below:
 
 <noscript><a href="https://liberapay.com/shane.aboyne/donate"><img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a></noscript>
 
 ## Architecture
-Programming Language: C# .net core 6
+Programming Language: C# .net core 6 (currently Docentric Toolkit runs only up to .net 6)
 Additional Assemblies:
 - Docentric Toolkit - latest from Nuget
 - Aspose.Words for .net 
@@ -57,7 +57,7 @@ The "engine" consists of 3 components, the request handler, the event handler (a
 - test request handler endpoint - if you can successfully send a xml request and it is stored in the requestqueue table, you have succeeded in creating your first request
 
 ## Sample XML header
-Authentication is with ApiKey - you will need to add a new ApiKey to your db on the group table
+Authentication is with an ApiKey - you will need to add a new ApiKey to your db on the group table
 Send request below to https://<yourhostname>/api/v1/AddRequest with the Xml in the body of the request. The response is Json and your request is successful if you get a value Id. Any error will result in an Empty Guid value in the Id.
 
 ```
