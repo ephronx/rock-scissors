@@ -57,7 +57,7 @@ The "engine" consists of 3 components, the request handler, the event handler (a
 - test request handler endpoint - if you can successfully send a xml request and it is stored in the requestqueue table, you have succeeded in creating your first request
 
 ## Sample XML header
-<DocumentRequest>
+```<DocumentRequest>
   <Header>
     <RequestType>TemplateCode</RequestType>
     <LetterDate>2023-09-30</LetterDate>
@@ -67,4 +67,4 @@ The "engine" consists of 3 components, the request handler, the event handler (a
   <Data>
     <ThisIsWhereYourDataPayloadGoes />
   </Data>
-</DocumentRequest>
+</DocumentRequest>```
