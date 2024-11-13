@@ -37,6 +37,8 @@ While I don't expect donations for this project, if it helps and you wish to don
 
 <noscript><a href="https://liberapay.com/shane.aboyne/donate"><img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a></noscript>
 
+Another way to help is just to mention this project - Rock-Scissors - when you purchase a Docentric Toolkit license. 
+
 ## Architecture
 Programming Language: C# .net core 6 (currently Docentric Toolkit runs only up to .net 6)
 Additional Assemblies:
