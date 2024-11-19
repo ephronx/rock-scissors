@@ -1,6 +1,7 @@
 # Rock-Scissors
 
-![GitHub last commit](https://img.shields.io/github/last-commit/ephronx/rock-scissors) ![GitHub Issues or Pull Requests](https://img.shields.io/github/issues/ephronx/rock-scissors) ![GitHub Issues or Pull Requests](https://img.shields.io/github/issues-closed/ephronx/rock-scissors)
+![GitHub last commit](https://img.shields.io/github/last-commit/ephronx/rock-scissors) ![GitHub Issues or Pull Requests](https://img.shields.io/github/issues/ephronx/rock-scissors) ![GitHub Issues or Pull Requests](https://img.shields.io/github/issues-closed/ephronx/rock-scissors) ![GitHub License](https://img.shields.io/github/license/ephronx/rock-scissors)
+
 
 
 
