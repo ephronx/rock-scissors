@@ -1,5 +1,7 @@
 # Rock-Scissors
 
+![GitHub last commit](https://img.shields.io/github/last-commit/:user/:repo)
+
 _Rock-Scissors_ is a group of applications used to request and merge data (formatted as XML) with a Word document template to produce high fidelity PDF reports, letters etc. For purposes of simplicity, this solution uses a SQL Server db as the repository and queue for the document requests.
 
 Included in this solution are:
